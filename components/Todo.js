@@ -32,7 +32,7 @@ export default function Todo({ todo }) {
       </p>
       <button
         type='button'
-        className='text-sm bg-red-500 hover:bg-red-600 text-white py-1 px-2 rounded'
+        className='text-sm bg-red-500 hover:bg-red-600 text-white p-2 rounded'
         onClick={() => deleteTodo(todo.id)}
       >
         Delete
